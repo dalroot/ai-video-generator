@@ -1,0 +1,37 @@
+# Secrets and tokens
+*.secret.*
+*.token*
+*.key
+*.pem
+session_headers.json
+token.secret.txt
+cookies.json
+playwright_cookies.json
+*.har
+download
+
+# Local documentation & artifacts
+HANDOFF.md
+FINANCIAL_REPORT.md
+
+# Media outputs
+*.mp4
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Environment variables
+.env
+.env.*
